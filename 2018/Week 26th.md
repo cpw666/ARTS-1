@@ -111,8 +111,8 @@ I wrote this two demo down is just because I once try to build a Flexbox Grid Sy
 Just don’t repeat my wrong.
 
 ## Share
-I wanna share you guys with [RequireJS](http://requirejs.org)
-With a long time we use `<script>` tag to maintain our scripts and their dependenciies order. Mini sites or something like this will be ok till eternity. 
+I wanna share you guys with [RequireJS](http://requirejs.org).
+With a long time we use `<script>` tag to maintain our scripts and their dependencies order. Mini sites or something like this will be ok till eternity. 
 
 But we are now in the age of SPA, we’ll get into the age of PWA, we got tons of JavaScript files with our application,`<script>` is holding your neck. 
 - Websites are turning into Web apps; 
