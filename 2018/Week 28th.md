@@ -56,21 +56,21 @@ With WeChat pay, we can easily accomplish that, but comes with requirement, cust
 So, it’s can be done with a normal filter 
 ```javascript
 /**
-* @param {Number} rest_hour available discount hour left per day;
-* @param {Number} rest_integral available integral left per day;
-* @param {Number} rest_coupon available parking coupons left per day;
-*/
+ * @param {Number} rest_hour available discount hour left per day;
+ * @param {Number} rest_integral available integral left per day;
+ * @param {Number} rest_coupon available parking coupons left per day;
+ */
 function initiative_best_offer_combination (need_hour, rest_integral, rest_coupon, rest_hour) {
-	const avariable = {
+	const available = {
 		integral: 0,
 		coupon: 0
 	};
-	avariable.coupon    = rest_hour >= rest_coupon ? rest_coupon : rest_hour;
-	avariable.coupon    = avariable.coupon >= need_hour ? need_hour : avariable.coupon;
-	avariable.integral  = (avariable.coupon < need_hour && rest_integral > 0) ? (need_hour - avariable.coupon) : 0;
-	avariable.integral  = avariable.integral >= rest_integral ? rest_integral : avariable.integral;
-	avariable.integral  = avariable.integral + avariable.coupon - rest_hour > 0 ? rest_hour - avariable.coupon : avariable.integral;
-	return avariable;
+	available.coupon    = rest_hour >= rest_coupon ? rest_coupon : rest_hour;
+	available.coupon    = available.coupon >= need_hour ? need_hour : available.coupon;
+	available.integral  = (available.coupon < need_hour && rest_integral > 0) ? (need_hour - available.coupon) : 0;
+	available.integral  = available.integral >= rest_integral ? rest_integral : available.integral;
+	available.integral  = available.integral + available.coupon - rest_hour > 0 ? rest_hour - available.coupon : available.integral;
+	return available;
 }
 ```
 
