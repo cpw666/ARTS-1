@@ -51,7 +51,7 @@ console.log(result);
 Sorry, I don’t know what is the purpose of this problem.
 
 ## Review
-[Understanding Position in CSS – Jacob Greenaway – Medium](https://medium.com/@jacobgreenaway12/taming-the-css-beast-master-positioning-5882bad14458)
+[Understanding Position in CSS – Jacob Greenaway – Medium](https://medium.com/@jacobgreenaway12/taming-the-css-beast-master-positioning-5882bad14458)  
 This week I comment with this article. 
 As author noted the Cheat Sheet:
 ### Static-Type positioning
@@ -76,7 +76,7 @@ As author noted the Cheat Sheet:
 	- Creates relative-type positioning context for children;
 
 ## Technique
-[Queue in JavaScript](https://github.com/charleserious/data-structures-and-algorithms-with-javascript/blob/master/Queue/queue.test.sorting.data.js)
+[Queue in JavaScript](https://github.com/charleserious/data-structures-and-algorithms-with-javascript/blob/master/Queue/queue.test.sorting.data.js)  
 A *queue* is a type of list where data are inserted at the end and are removed from the front. Queues are used to store data in the order in which they occur, as opposed to a stack, in which the last piece of data entered is the first element used for processing. Think of a queue like the line at your bank, where the first person into the line is the first person served, and as more customers enter a line, they wait in the back until it is their turn to be served.  
 
 A queue is an example of the first-in, first-out(FIFO) data structure. Queues are used to order processes submitted to an operating system or a print spooler, and simulation applications used queues to modern scenarios such as customers standing in the line at bank or grocery store.  
@@ -192,7 +192,7 @@ After radix sort:
 ```
 
 ## Share
-Following [Webpack from Nothing - Unit Testing](https://what-problem-does-it-solve.com/webpack/testing.html)
+Following [Webpack from Nothing - Unit Testing](https://what-problem-does-it-solve.com/webpack/testing.html)  
 Unit testing has always been possible in JavaScript, but early test runners required opening a page in a web browser that executed the tests. Because of Node, we now can execute JavaScript on the command line, whiteout a browser, and this is how we’d like to work, because it’s faster and easier to automate.  
 
 Ideally, we want the ability to:  
