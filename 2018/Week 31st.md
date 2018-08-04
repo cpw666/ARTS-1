@@ -81,9 +81,13 @@ So Event Loop is now in JS Engine from ES6? Need to digging deeper.
 
 ## Technique
 [Linked List](https://github.com/charleserious/data-structures-and-algorithms-with-javascript/blob/master/LinkedLists/linkedList.test.js)  
-A linked list is a collection of objects called *nodes*. Each node is linked to a successor node in the list using an object reference. The reference to another node is called a *link*. An example of a linked list is shown in [Figure Singly LinkedList](#single-linkedList)
-![Singly LinkedList](http://pc97r6al4.bkt.clouddn.com/singly-linked-list.jpg)
-While array elements are referenced by their position, linked list elements are referenced by their relationship to the other elements of the linked list In [Figure Singly LinkedList](#single-linkedList), we say that “1201” follows “1200”, not “1201” in the second position. 
+A linked list is a collection of objects called *nodes*. Each node is linked to a successor node in the list using an object reference. The reference to another node is called a *link*.   
+
+An example of a linked list is shown in [Figure Singly LinkedList](#single-linkedList)
+![Singly LinkedList](http://pc97r6al4.bkt.clouddn.com/singly-linked-list.jpg)  
+
+While array elements are referenced by their position, linked list elements are referenced by their relationship to the other elements of the linked list In [Figure Singly LinkedList](#single-linkedList), we say that “1201” follows “1200”, not “1201” in the second position.   
+
 Not to say too much, this is my implementation:
 ```javascript
 class Node {
