@@ -87,6 +87,7 @@ console.log(JSON.stringify(levels));
 [Reduce (Composing Software) – JavaScript Scene – Medium](https://medium.com/javascript-scene/reduce-composing-software-fe22f0c39a1d)
 
 > Fold (aka: reduce, accumulate, aggregate, compress, or inject) refers to a family of higher-order functions that analyze a recursive data structure and though use of a given combining operation, recombine the results of recursively processing its constituent parts, building up a return value. Typically, a fold is presented with a combining function, a top node of data structure, and possibly some default values to e used under certain conditions. The fold then proceeds to combine elements of the data structure’s hierarchy, using the function in a systematic way.  
+
 Quote from [Wikipedia](https://en.wikipedia.org/wiki/Fold_\(higher-order_function\))
 
 Reduce is versatile, It’s easy to define `map()`, `filter()` and lot’s of other interesting things using reduce:
