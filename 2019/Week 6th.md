@@ -75,4 +75,4 @@ console.log(JSON.stringify(d)); // {"a":1,"b":2}
 
 ## Share
 
-Don’t be rude to your parents, the raised you, and offer their whole life for you life comfort, I’m practicing to be more gentle to my parents.
+Don’t be rude to your parents, they raised you, and offer their whole life for you life comfort, I’m practicing to be more gentle to my parents.
