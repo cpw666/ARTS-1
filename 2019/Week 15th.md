@@ -96,4 +96,4 @@ const capitalizeEveryWord = str => str.replace(/\b[a-z]/g, char => char.toUpperC
 
 ## Share
 
-Count my time, manage my time. Too much this need to be done, they should be on a priority todo list.
+Count my time, manage my time. Too much things need to be done, they should be on a priority todo list.
