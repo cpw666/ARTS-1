@@ -129,8 +129,7 @@ Assume the reader knows nothing about the implementation, but do not assume that
 
 Be clear, but don’t dumb it down. To dumb things down is both wasteful and insulting. Make the investment in practice and familiarity in order to gain a better programming vocabulary, and a more vigorous style.
 
-
-## Share
+## Technique
 
 Pipe async functions
 
@@ -163,7 +162,7 @@ const sum = pipeAsyncFunctions(
 // output is 15 after 1 second
 ```
 
-## Technique
+## Share
 
 Keep your code clean and your function stupid enough, practice everyday you can.
 
